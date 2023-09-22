@@ -1,0 +1,164 @@
+#article-category {
+    background-color: #e4e9ed;
+    color: rgb(8, 8, 8);
+    border-radius: 2px;
+}
+
+/* heroes */
+.imageSettings {
+    background-image: url('https://wallpapercave.com/wp/wp4291880.jpg');
+    background-size: cover;
+
+}
+
+/* gallary */
+
+.galleryText.card {
+    height: 30vw;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: inline-flex;
+    height: 70vh;
+    gap: 2vw;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    text-align: center;
+    padding: 1% 1%;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 10px;
+}
+
+.flex-item:hover {
+    padding: 1% 1%;
+    box-shadow: 4px 4px 3px peachpuff;
+    border-radius: 10px;
+}
+
+.imageGallery {
+    width: 280px;
+    height: 300px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .galleryIcon {
+    color: rgba(118, 165, 177, 0.718);
+}
+
+.galleryText:hover {
+    border: 1px solid #75a3bec1;
+    background-color: #000000;
+    color: white;
+}
+
+/* footer */
+#footer {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* sidebar, comments, popular content and sub form */
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f109;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* .widget {
+    margin-bottom: 20px;
+} */
+
+.widget h2 {
+    font-size: 20px;
+}
+
+.widget ul {
+    list-style-type: none;
+}
+
+.widget .subscription-form input[type="email"] {
+    width: 50%;
+}
+
+/* footer */
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
